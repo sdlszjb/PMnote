@@ -148,13 +148,13 @@
 1. 挣值管理（EVM）
     - 计划值（PV）
     - 挣值（EV）
-    - 实际成本（AC_
+    - 实际成本（AC）
     - 进度偏差（SV）：SV=EV-PV
     - 成本偏差（CV）：CV=EV-AC
     - 进度绩效指数（SPI）：SPI = EV / PV
     - 成本绩效指数（CPI）：CPI = EV / AC
 2. 预测
-    - 完工估算（EAC）: EAC = AC + ETC
+    - 完工估算（EAC）: （非典）EAC = AC + ETC = AC + BAC - EV；（典型）EAC = BAC / CPI
     - 完工预算（BAC）
     - 完工尚需估算（ETC）：ETC = BAC - EV
 3. 完工尚需绩效指数
